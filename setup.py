@@ -1,12 +1,13 @@
 from setuptools import setup, find_packages
 
-requirements = []
-with open('reqs.txt') as f:
-    requirements = f.read().splitlines()
-
 readme = ''
 with open('README.md') as f:
     readme = f.read()
+
+requirements = [
+    'aiohttp>=3.9.4',
+    'async-timeout>=4.0,<5.0; python_version<"3.11"'
+]
 
 setup(
     name='bhaicord.py',
@@ -14,7 +15,7 @@ setup(
     author='Your Name',
     author_email='147.himangshu@gmail.com',
     description='A discord API wrapper for python',
-    requirements=requirements,
+    install_requires=requirements,
     readme=readme,
     long_description=readme,
     long_description_content_type='text/markdown',
@@ -30,4 +31,5 @@ setup(
         'Operating System :: OS Independent',
     ],
     python_requires='>=3.10',
+    download_url="https://github.com/himangshu147-git/bhaicord.py/archive/refs/tags/bhaicord.py.tar.gz"
 )
