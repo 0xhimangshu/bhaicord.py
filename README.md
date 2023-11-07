@@ -6,6 +6,8 @@
 
 ```bash
 pip install bhaicord.py
+# or
+pip install git+https://github.com/himangshu147-git/bhaicord.py.git
 ```
 
 ## Usage
