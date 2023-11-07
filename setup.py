@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 requirements = []
-with open('requirements.txt') as f:
+with open('reqs.txt') as f:
     requirements = f.read().splitlines()
 
 readme = ''
