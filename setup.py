@@ -11,7 +11,7 @@ requirements = [
 
 setup(
     name='bhaicord.py',
-    version='0.0.1',
+    version='0.0.2',
     author='Your Name',
     author_email='147.himangshu@gmail.com',
     description='A discord API wrapper for python',
