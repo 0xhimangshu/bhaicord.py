@@ -5,7 +5,7 @@ with open('README.md') as f:
     readme = f.read()
 
 requirements = [
-    'aiohttp>=3.9.4',
+    'aiohttp>=3.8.4',
     'async-timeout>=4.0,<5.0; python_version<"3.11"'
 ]
 
